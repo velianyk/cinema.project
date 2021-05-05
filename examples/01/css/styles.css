@@ -1,0 +1,142 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+
+  --primary: hsl(31, 100%, 45%);
+  --primary-dark: hsl(21, 86%, 42%);
+  --primary-light: hsl(37, 91%, 55%);
+
+  --secondary: hsl(204, 100%, 37%);
+  --secondary-dark: hsl(208, 89%, 29%);
+  --secondary-light: hsl(202, 87%, 84%);
+
+  --destructive: hsl(9, 80%, 48%);
+  --destructive-dark: hsl(7, 92%, 39%);
+  --destructive-light: hsl(9, 92%, 76%);
+}
+
+.link-list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 0.75rem;
+}
+
+/* Button styles */
+.button {
+  /* Button reset */
+  font-family: inherit;
+  font-size: 1rem;
+  outline: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  padding: 5px;
+  border-radius: 3px;
+  background: var(--primary);
+}
+
+/* Get rid of focus rings in Firefox */
+.button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.button:focus,
+.button:hover {
+  box-shadow: 0 8px 20px -5px hsla(0, 0%, 0%, 0.15),
+    0 0 0 1px hsla(0, 0%, 0%, 0.03);
+}
+
+.button--primary-dark {
+  background: var(--primary-dark);
+}
+
+.button--primary-light {
+  background: var(--primary-light);
+}
+
+.page {
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.page__header {
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+}
+
+.page__footer {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-top: auto;
+}
+
+.page__title {
+  text-align: center;
+}
+
+.page__content {
+  box-sizing: border-box;
+  padding: 0.75rem;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 2rem;
+}
+
+.header__link-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.footer {
+  background: var(--secondary-light);
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer__copyright {
+  font-size: 0.75rem;
+}
+
+.pick-song {
+  width: 100%;
+}
+
+.pick-song__title {
+  text-align: center;
+}
+
+.pick-song__actions {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pick-song__action {
+  width: 60%;
+}
