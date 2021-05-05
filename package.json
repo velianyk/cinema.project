@@ -1,14 +1,13 @@
 {
-  "name": "student-practice",
+  "name": "cinema.project",
   "version": "0.0.1",
-  "description": "Student practice example project",
+  "description": "Practice. My project",
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1",
     "format": "prettier js css --write"
   },
-  "author": "Nazar Romaniv <nromaniv@icloud.com>",
-  "private": true,
+  "author": "Sofiia Velianyk <sofiykavelianyk15@gmail.com>",
   "devDependencies": {
     "http-server": "^0.12.3",
     "prettier": "^2.2.1"
