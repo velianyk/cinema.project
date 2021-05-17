@@ -1,10 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="charset" content="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="/js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" 
+    rel="stylesheet">
   </head>
   <body>
-    <header></header>
+    <header class="header head_main">
+      <nav class="head_nav">
+        <ul class="nav-list head_nav-list">
+          <li class="head_link">
+            <a class="link" href="#">Розклад</a>
+          </li>
+          <li class="head_link">
+            <a class="link" href="#">Скоро у прокаті</a>
+          </li>
+          <li class="head_link">
+            <a class="link" href="#">Сертифікати</a>
+          </li>
+          <li class="head_link">
+            <a class="link" href="#">Особистий кабінет</a>
+          </li>
+          <li class="head_link">
+            <a class="link" href="#">Допомога</a>
+          </li>
+         <!-- <li class="head_link">
+            <a class="link" href="#">Про нас</a>
+          </li>-->
+      </nav>
+      <img
+        id="toggle-navigation"
+        class="head__nav head_nav--collapsed"
+        src="/IMAGES/nav.png"
+        alt="">
+      <div>
+        <h3>Зараз у прокаті</h3>
+      </div>
+      <div>  
+        <img
+          class="man_enter"
+          src="/IMAGES/man.png"
+          alt=""
+        />
+      </div> 
+    </header>
+    <main class="main_content">
+      <section class="section_film">
+        <div class="container_img-film">
+          <img class="img_film" src="/IMAGES/1.jpg">
+        </div>
+        <div class="container_title_film">
+            <p class="film_title">ГЕНІАЛЬНЕ ПОГРАБУВАННЯ</p>
+        </div>
+        <div class="container_descr_film container_title_film">
+          <p class="film_title">Жанр</p>
+      </div>
+    </section>
+    </main>
+    <footer>
+      <section class="cinemaadress">
+              <p>
+                <span>Наша адреса: </span>
+                <span> <strong>м.Івано-Франківськ, вул. Незалежності, 97</strong></span>
+                </p>
+    </section>
+    </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="/js/main.js"></script>  
   </body>
 </html>

@@ -1,1 +1,162 @@
-/* This is our styles */
+
+body
+{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: #16044A;
+    padding: 0;
+    margin: 0;
+}
+.main_content
+{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.link
+{
+    color:white;
+    font-weight: 800;
+    font-size: large;
+    text-decoration: none;
+}
+/*header style*/
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color:#16044A ;
+    z-index: 100;
+    padding-top: 5px;
+    box-shadow: 0px 4px 10px  rgba(255, 255, 255, 0.25);
+    padding-bottom: 15px;
+}
+.man_enter
+{
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 50px;
+    height: 60px;
+}
+.head_nav {
+    display: none;
+    justify-content: left;
+  }
+  
+.head_nav--collapsed
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+h3
+{
+    color:#16044A;
+    text-shadow: 0px 0px 10px  rgba(255, 255, 255, 0.75);
+}
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 4px 10px  rgba(255, 255, 255, 0.25);*/
+  }
+/*main content style*/
+.section_film
+{
+    display: inline-flex;
+        flex-flow: column wrap;
+    padding-top: 50px;
+    box-sizing: padding-box;
+}
+/*.container_img-film
+{
+    background-image: url(/IMAGES/bg_film.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}*/
+.img_film
+{
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0px -5px 10px  rgba(255, 255, 255, 0.5); ;
+}
+.container_title_film
+{
+    display: inline-block;
+    border:1px solid #A59BC2;
+    padding-right: 10px;
+    padding-inline-end: 10px;
+    background-color: #16044A;
+}
+.film_title
+{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+.container_descr_film
+{
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+/*footer styles*/
+.cinemaadress
+{
+    display: inline-flex;
+        flex-flow: column wrap;
+}
+
+@media screen and (min-width:360px) {
+    .main_content
+    {
+     background-image: none;
+    }
+
+
+
+   }
+@media screen and (min-width:460px) {
+   .main_content
+   {
+    background-image: url(/IMAGES/bg_film.png);
+    background-repeat: no-repeat;
+    background-size:450px;
+   }
+   
+  }
+  
+  @media screen and (min-width: 900px) {
+    .main_content
+    {
+    background-image: url(/IMAGES/bg_film.png);
+    background-repeat: no-repeat;
+    background-size: 950;
+    }
+    .head_nav
+    {
+        display: block;
+    }
+    .nav-list
+    {
+        display: inline-flex;
+        align-items:baseline;
+        margin-top: 30px;
+    }
+    .head_link
+    {
+        display: inline-flex;
+        margin:10px;
+    }
+    .head_nav--collapsed
+    {
+        display: none;
+    }
+    h3
+    {
+        display: none;
+    }
+  }
