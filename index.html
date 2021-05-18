@@ -33,6 +33,7 @@
           </li>-->
       </nav>
       <img
+        onclick="openNav()"
         id="toggle-navigation"
         class="head__nav head_nav--collapsed"
         src="/images/nav.png"
@@ -57,7 +58,7 @@
             <p class="film_title">ГЕНІАЛЬНЕ ПОГРАБУВАННЯ</p>
         </div>
         <div class="container_descr_film container_title_film">
-          <p class="film_title">Жанр</p>
+          <p class="film_title">Опис</p>
       </div>
     </section>
     </main>
@@ -69,6 +70,14 @@
                 </p>
     </section>
     </footer>
+    <nav id="nav-modal" class="nav--modal">
+          <img class="closebtn" src="/images/exit.png" onclick="closeNav()">
+          <a class="link nav-modal__link" href="#">Розклад</a>
+          <a class="link nav-modal__link" href="#">Скоро у прокаті</a>
+          <a class="link nav-modal__link" href="#">Сертифікати</a>
+          <a class="link nav-modal__link" href="#">Особистий кабінет</a>
+          <a class="link nav-modal__link" href="#">Допомога</a>
+    </nav>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script src="/js/main.js"></script>  
   </body>
