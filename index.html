@@ -8,50 +8,52 @@
     <link 
     href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" 
     rel="stylesheet">
-
     <link rel="shortcut icon" href="/images/кольцо.png" type="image/x-icon">
     <title>Космос</title>
   </head>
   <body>
     <header class="header head_main">
-      <div  class="head_img">
-        <img src="/images/logo2.png" width="80px" height="50px">
-      </div>
-      <nav class="head_nav">
-          <ul class="nav-list head_nav-list">
-          <li class="head_link">
-            <a class="link" href="#">Розклад</a>
-          </li>
-          <li class="head_link">
-            <a class="link" href="#">Скоро у прокаті</a>
-          </li>
-          <li class="head_link">
-            <a class="link" href="#">Сертифікати</a>
-          </li>
-          <li class="head_link">
-            <a class="link" href="#">Допомога</a>
-          </li>
-          <li class="head_link">
-            <a class="link" href="#">Про нас</a>
-          </li>
-      </nav>
+    <div  class="head_img">
+     <a href="/index.html"> 
+      <img src="/images/logo2.png" width="80px" height="50px">
+    </a>
+    </div>
+    <nav class="head_nav">
+        <ul class="nav-list head_nav-list">
+        <li class="head_link">
+          <a id="btn1" class="link" href="/pages/schedule.html">Розклад</a>
+        </li>
+        <li class="head_link">
+          <a id="btn2" class="link" href="/pages/soon.html">Скоро у прокаті</a>
+        </li>
+        <li class="head_link">
+          <a id="btn3" class="link" href="/pages/certificates.html">Сертифікати</a>
+        </li>
+        <li class="head_link">
+          <a id="btn4" class="link" href="/pages/help.html">Допомога</a>
+        </li>
+        <li class="head_link">
+          <a id="btn5" class="link" href="/pages/about.html">Про нас</a>
+        </li>
+    </nav>
+
+    <img
+      onclick="openNav()"
+      id="toggle-navigation"
+      class="head__nav head_nav--collapsed"
+      src="/images/nav.png"
+      alt="">
+    <div>
+      <h3>Зараз у прокаті</h3>
+    </div>
+    <div>  
       <img
-        onclick="openNav()"
-        id="toggle-navigation"
-        class="head__nav head_nav--collapsed"
-        src="/images/nav.png"
-        alt="">
-      <div>
-        <h3>Зараз у прокаті</h3>
-      </div>
-      <div>  
-        <img
-          class="man_enter"
-          src="/images/man.png"
-          alt=""
-        />
-      </div> 
-    </header>
+        class="man_enter"
+        src="/images/man.png"
+        alt=""
+      />
+    </div> 
+  </header>
     <main class="main_content">
       <section class="section_film">
         <div class="container_img-film">
@@ -134,13 +136,16 @@
         <strong>(050) 433 1406</strong>
       </div>
     </footer>
+    <!--modal navigation-->
     <nav id="nav-modal" class="nav--modal">
-          <img class="closebtn" src="/images/exit.png" onclick="closeNav()">
+      <img class="closebtn" src="/images/exit.png" onclick="closeNav()">
+      <div class="cont-modal">
           <a class="link nav-modal__link" href="/pages/schedule.html">Розклад</a>
           <a class="link nav-modal__link" href="/pages/soon.html">Скоро у прокаті</a>
           <a class="link nav-modal__link" href="/pages/certificates.html">Сертифікати</a>
           <a class="link nav-modal__link" href="/pages/help.html">Допомога</a>
           <a class="link nav-modal__link" href="/pages/about.html">Про нас</a>
+      </div>    
     </nav>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script src="/js/main.js"></script>  
