@@ -38,3 +38,7 @@ function openNav() {
   {
     head_link.addClass('link3');
   }
+
+  /*slider*/
+
+
