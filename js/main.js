@@ -29,7 +29,12 @@ function openNav() {
   var btn2 = document.getElementById('btn2');
   var btn3 = document.getElementById('btn3');
   var btn4 = document.getElementById('btn4');
+  var btn5 = document.getElementById('btn5');
 
+  btn1.onclick = function()
+  {
+    head_link.addClass('link1');
+  }
   btn2.onclick = function()
   {
     head_link.addClass('link2');
@@ -38,7 +43,10 @@ function openNav() {
   {
     head_link.addClass('link3');
   }
+  btn4.onclick = function()
+  {
+    head_link.addClass('link4');
+  }
 
-  /*slider*/
 
 
