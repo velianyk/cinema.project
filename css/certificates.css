@@ -6,3 +6,66 @@
 }
 
 /* slider*/
+.carousel-scroll_forward 
+{
+    transform: rotate(90deg);
+}
+.carousel-scroll_back
+{
+    transform: rotate(-90deg);
+}
+.carousel {
+    display: flex;
+    align-self: center;
+    overflow-x: hidden;
+    /* Three 250px-wide images + 2 gaps between + 2 gaps on sides */
+    width:70%;
+    max-width: 70%;
+    /*margin: 10px auto;*/
+  }
+  
+  .carousel__content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /*gap: 10px;*/
+    max-width: 100%;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .carousel__item {
+    aspect-ratio: 16/ 9;
+    height: 100%;
+    width: 100%;
+  }
+  @media screen and (min-width:360px)
+  {
+
+  }
+  @media screen and (min-width:460px) 
+  {
+    .carousel {
+        display: flex;
+        align-self: center;
+        overflow-x: hidden;
+        /* Three 250px-wide images + 2 gaps between + 2 gaps on sides */
+        width:100%;
+        /*margin: 10px auto;*/
+      }
+    
+      
+     
+  }
+  @media screen and (min-width: 900px)
+  {
+    .carousel {
+        display: flex;
+        align-self: center;
+        overflow-x: hidden;
+        /* Three 250px-wide images + 2 gaps between + 2 gaps on sides */
+        width:70%;
+    
+        /*margin: 10px auto;*/
+      }
+  }
