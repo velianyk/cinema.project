@@ -30,7 +30,8 @@ function openNav() {
   var btn3 = document.getElementById('btn3');
   var btn4 = document.getElementById('btn4');
   var btn5 = document.getElementById('btn5');
-
+  
+  
   btn1.onclick = function()
   {
     head_link.addClass('link1');
@@ -47,6 +48,25 @@ function openNav() {
   {
     head_link.addClass('link4');
   }
-
-
+  btn5.onclick = function()
+  {
+    head_link.addClass('link5');
+  }
+/*scroll button*/
+$(document).ready(function(){
+ 
+  $(window).scroll(function(){
+  if ($(this).scrollTop() > 100) {
+  $('.scrollup').fadeIn();
+  } else {
+  $('.scrollup').fadeOut();
+  }
+  });
+   
+  $('.scrollup').click(function(){
+  $("html, body").animate({ scrollTop: 0 }, 600);
+  return false;
+  });
+   
+  });
 
