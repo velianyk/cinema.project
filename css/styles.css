@@ -179,10 +179,15 @@ h3
     
     padding-top: 50px;
 }
-
+.container_img-film
+{
+    height: 400px;
+}
 .img_film
 {
     display:flex;
+    width: auto;
+    height: 100%;
     max-width: 100%;
     vertical-align: top;
     box-shadow: 0px -5px 10px  rgba(255, 255, 255, 0.5); ;
@@ -201,11 +206,39 @@ h3
     font-size: 15px;
     text-align: center;
     font-weight: 700;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.75);
 }
 .container_descr_film
 {
     max-width: 100%;
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+.desc-header {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.desc-header-time
+{
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.75);
+}
+.desc-body {
+    margin: 0 0 2px 0;
+    font-size: 15px;
+}
+
+.desc-table {
+    width: 100%;
+    margin-left: 10px;
+}
+.desc-body-desc
+{
+    font-family: Caveat;
+}
+.desc-body-time
+{
+    font-weight: 600;
+    padding-top:20px;
 }
 
 .scrollup{
