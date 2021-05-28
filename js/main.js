@@ -30,7 +30,7 @@ function openNav() {
   var btn3 = document.getElementById('btn3');
   var btn4 = document.getElementById('btn4');
   
-  
+
   btn1.onclick = function()
   {
     head_link.addClass('link1');
@@ -65,3 +65,7 @@ $(document).ready(function(){
    
   });
 
+const film1 = document.querySelector('#film1')
+console.log(film1)
+
+const film1Content = film1.textContent
