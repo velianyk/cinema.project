@@ -29,7 +29,6 @@ function openNav() {
   var btn2 = document.getElementById('btn2');
   var btn3 = document.getElementById('btn3');
   var btn4 = document.getElementById('btn4');
-  var btn5 = document.getElementById('btn5');
   
   
   btn1.onclick = function()
@@ -47,10 +46,6 @@ function openNav() {
   btn4.onclick = function()
   {
     head_link.addClass('link4');
-  }
-  btn5.onclick = function()
-  {
-    head_link.addClass('link5');
   }
 /*scroll button*/
 $(document).ready(function(){
