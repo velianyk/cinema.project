@@ -1,90 +1,52 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="charset" content="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" 
-    rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
-    rel="stylesheet">
-    <link rel="shortcut icon" href="/images/кольцо.png" type="image/x-icon">
-    <title>Космос</title>
-  </head>
-  <body>
-    <header class="header head_main">
-    <div  class="head_img">
-     <a href="/index.html"> 
-      <img src="/images/logo2.png" width="80px" height="50px">
-    </a>
-    </div>
-    <nav class="head_nav">
-        <ul class="nav-list head_nav-list">
-        <li class="head_link">
-          <a id="btn1" class="link" href="/pages/schedule.html">Розклад</a>
-        </li>
-        <li class="head_link">
-          <a id="btn2" class="link" href="/pages/soon.html">Скоро у прокаті</a>
-        </li>
-        <li class="head_link">
-          <a id="btn3" class="link" href="/pages/certificates.html">Сертифікати</a>
-        </li>
-        <li class="head_link">
-          <a id="btn4" class="link" href="/pages/about.html">Про нас</a>
-        </li>
-    </nav>
 
-    <img
-      onclick="openNav()"
-      id="toggle-navigation"
-      class="head__nav head_nav--collapsed"
-      src="/images/nav.png"
-      alt="">
-    <div>
-      <h3>Зараз у прокаті</h3>
-    </div>
-    <div>  
-      <img
-        class="man_enter"
-        src="/images/man.png"
-        alt=""
-      />
-    </div> 
-  </header>
-    <main class="main_content">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="charset" content="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="http://192.168.0.109:8080/css/styles.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link 
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" 
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet">
+      <link rel="shortcut icon" href="images/кольцо.png" type="image/x-icon">
+      <title>Космос</title>
+    </head>
+    <body>
+  <main class="main_content">
       <section class="section_film">
         <div class="container_img-film">
-          <img class="img_film" src="/images/1.jpg">
+          <img class="img_film" src="images/1.jpg">
         </div>
         <div class="container_title_film">
-        <a href="/pages/description1.html"> <button class="inf-film"><p id="film1"  class="film_title">ТІ, ЩО БАЖАЮТЬ МОЄЇ СМЕРТІ</p></button></a>
+        <a href="pages/description1.html"> <button class="inf-film"><p id="film1"  class="film_title">ЗАКЛЯТТЯ 3</p></button></a>
         </div>
         <div class="container_descr_film container_title_film">
           <table class="desc-table">
             <tr>
               <td>
-                <button id="desc_film" class="desc-film"><span class="desc-header">Жанр:</span></button>
+                  <span class="desc-header">Жанр:</span>
                <div>
-                 <span class="desc-body-desc">драма, трилер</span> 
+                 <span class="desc-body-desc">жахи, трилер</span> 
                </div>
               </td>
               <td>
                <span class="desc-header-time">Вибери час:</span> 
                <div>
-                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61411&agent=liniakino&_=1621942947292" 
+                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61683&agent=liniakino&_=1623338855825" 
                 target="_blank">
-                  <span  class="desc-body-time">10:20</span>
+                  <span  class="desc-body-time">21:40</span>
                 </a>
                </div>
               </td>
             </tr>
             <tr>
               <td>
-                <button id="desc_film" class="desc-film"> <span class="desc-header">Тривалість:</span></button>
+                <span class="desc-header">Тривалість:</span>
                <div>
-                 <span class="desc-body-desc">100хв</span>
+                 <span class="desc-body-desc">112хв</span>
                </div>
               </td>
               <td>
@@ -95,10 +57,10 @@
     </section>
     <section class="section_film">
       <div class="container_img-film">
-        <img class="img_film" src="/images/2.jpg">
+        <img class="img_film" src="images/2.jpg">
       </div>
       <div class="container_title_film">
-        <a href="/pages/description1.html"> <button id="film2" class="inf-film"><p class="film_title">ФОРСАЖ 9: НЕСТРИМНА ТЯГА</p></button></a>
+        <a href="pages/description1.html"> <button id="film2" class="inf-film"><p class="film_title">КРОЛИК ПЕТРИК</p></button></a>
       </div>
       <div class="container_descr_film container_title_film">
           <table class="desc-table">
@@ -106,16 +68,25 @@
               <td>
                 <span class="desc-header">Жанр:</span>
                <div>
-                 <span class="desc-body-desc">бойовик, кримінал</span> 
+                 <span class="desc-body-desc">фентезі, комедія</span> </br>
                </div>
               </td>
               <td>
                <span class="desc-header-time">Вибери час:</span> 
                <div>
-                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61348&agent=liniakino&_=1621943174788"
+                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61619&agent=liniakino&_=1623338648755"
                 target="_blank">
-                  <span  class="desc-body-time">18:50</span>
-                </a>   
+                  <span  class="desc-body-time">10:00</span>
+                </a>
+                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61627&agent=liniakino&_=1623338704547"
+                target="_blank">
+                  <span  class="desc-body-time">15:00</span>
+                </a>  
+              </br>
+                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61634&agent=liniakino&_=1623338704742"
+                target="_blank">
+                  <span  class="desc-body-time">17:00</span>
+                </a>  
                </div>
               </td>
             </tr>
@@ -132,12 +103,13 @@
           </table>
       </div>
     </section>
+    
     <section class="section_film">
       <div class="container_img-film">
-        <img class="img_film" src="/images/3.jpg">
+        <img class="img_film" src="images/4.jpg">
       </div>
       <div class="container_title_film">
-          <p class="film_title">ГНІВ ЛЮДСЬКИЙ</p>
+          <p class="film_title">КРУЕЛА</p>
       </div>
       <div class="container_descr_film container_title_film">
           <table class="desc-table">
@@ -145,52 +117,15 @@
               <td>
                 <span class="desc-header">Жанр:</span>
                <div>
-                 <span class="desc-body-desc">детектив, драма, кримінал</span> 
+                 <span class="desc-body-desc">комедія, кримінал</span> 
                </div>
               </td>
               <td>
                <span class="desc-header-time">Вибери час:</span> 
                <div>
-                 <span  class="desc-body-time">14:30</span>
-                 <span  class="desc-body-time">19:00</span>
-               </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-               <span class="desc-header">Тривалість:</span>
-               <div>
-                 <span class="desc-body-desc">120хв</span>
-               </div>
-              </td>
-              <td>
-              </td>
-            </tr>
-          </table>
-      </div>
-    </section>
-    <section class="section_film">
-      <div class="container_img-film">
-        <img class="img_film" src="/images/4.jpg">
-      </div>
-      <div class="container_title_film">
-          <p class="film_title">ПИЛА СПІРАЛЬ</p>
-      </div>
-      <div class="container_descr_film container_title_film">
-          <table class="desc-table">
-            <tr>
-              <td>
-                <span class="desc-header">Жанр:</span>
-               <div>
-                 <span class="desc-body-desc">жахи</span> 
-               </div>
-              </td>
-              <td>
-               <span class="desc-header-time">Вибери час:</span> 
-               <div>
-                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61418&agent=liniakino&_=1621943510210"
+                <a href="https://bilet.vkino.com.ua/showtime/?theater=liniakino-kosmos&showtime=61676&agent=liniakino&_=1623338859480"
                 target="_blank">
-                 <span  class="desc-body-time">14:20</span>
+                 <span  class="desc-body-time">19:10</span>
                 </a>
                 </div>
               </td>
@@ -199,7 +134,7 @@
               <td>
                <span class="desc-header">Тривалість:</span>
                <div>
-                 <span class="desc-body-desc">95хв</span>
+                 <span class="desc-body-desc">133хв</span>
                </div>
               </td>
               <td>
@@ -207,122 +142,16 @@
             </tr>
           </table>
       </div>
+   
     </section>
-    <section class="section_film">
-      <div class="container_img-film">
-        <img class="img_film" src="/images/5.jpg">
-      </div>
-      <div class="container_title_film">
-          <p class="film_title">НЕЧЕСТИВИЙ</p>
-      </div>
-      <div class="container_descr_film container_title_film">
-          <table class="desc-table">
-            <tr>
-              <td>
-                <span class="desc-header">Жанр:</span>
-               <div>
-                 <span class="desc-body-desc">Фентезі</span> 
-               </div>
-              </td>
-              <td>
-               <span class="desc-header-time">Вибери час:</span> 
-               <div>
-                 <span  class="desc-body-time">13:30</span>
-                 <span  class="desc-body-time">20:30</span>
-               </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-               <span class="desc-header">Тривалість:</span>
-               <div>
-                 <span class="desc-body-desc">120хв</span>
-               </div>
-              </td>
-              <td>
-              </td>
-            </tr>
-          </table>
-      </div>
-    </section>
-    <section class="section_film">
-      <div class="container_img-film">
-        <img class="img_film" src="/images/6.jpg">
-      </div>
-      <div class="container_title_film">
-          <p class="film_title">ДОЗВОЛЬ ЙОМУ ПІТИ</p>
-      </div>
-      <div class="container_descr_film container_title_film">
-        <table class="desc-table">
-          <tr>
-            <td>
-              <span class="desc-header">Жанр:</span>
-             <div>
-               <span class="desc-body-desc">Фентезі</span> 
-             </div>
-            </td>
-            <td>
-             <span class="desc-header-time">Вибери час:</span> 
-             <div>
-               <span  class="desc-body-time">13:30</span>
-               <span  class="desc-body-time">20:30</span>
-             </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-             <span class="desc-header">Тривалість:</span>
-             <div>
-               <span class="desc-body-desc">120хв</span>
-             </div>
-            </td>
-            <td>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </section>
-    </main>
-    <a href="#" class="scrollup">Вверх</a>
-    <footer>
-      <div class="footer-items">
-                Наша адреса:
-                <strong>м.Івано-Франківськ,</strong> 
-                <strong>вул. Незалежності, 97</strong>
-      </div>
-      <div class="footer-logo">
-        <a href="/index.html"><h2>КОСМОС</h2></a>
-      </div>  
-      <div class="footer-items">
-        Бронювання квитків:
-        <strong>(050) 433 1406</strong>
-      </div>
-    </footer>
-    <!--modal navigation-->
-    <nav id="nav-modal" class="nav--modal">
-      <img class="nav-man_enter" src="images/man.png">
-      <img class="closebtn" src="/images/exit.png" onclick="closeNav()">
     
-      <div class="cont-modal">
-          <a class="link nav-modal__link" href="/pages/schedule.html">Розклад</a>
-          <a class="link nav-modal__link" href="/pages/soon.html">Скоро у прокаті</a>
-          <a class="link nav-modal__link" href="/pages/certificates.html">Сертифікати</a>
-          <a class="link nav-modal__link" href="/pages/about.html">Про нас</a>
-      </div>
-      <div class="nav-footer">
-        <div class="nav-footer_item"> 
-          <a href="/index.html"><h2>КОСМОС</h2></a></div>
-         
-        <div class="nav-footer_item">  
-          Бронювання квитків:
-          <strong>(050) 433 1406</strong>
-        </div>
-      </div>
-     
-    </nav>
+   
+    </main>
+    <button class="scrollup">Вверх</button>
+    
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="/js/main.js"></script> 
-    
-  </body>
+    <script src="http://192.168.0.109:8080/js/main.js"></script>  
+  
+</body>
 </html>

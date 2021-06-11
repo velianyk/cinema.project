@@ -1,3 +1,12 @@
+$.get( "http://192.168.0.109:8080/components/header.html").done(function( data ) {
+  $('body').prepend( data );
+});
+$.get( "http://192.168.0.109:8080/components/footer.html").done(function( data ) {
+  $('main').after( data );
+});
+$.get( "http://192.168.0.109:8080/components/modal.html").done(function( data ) {
+  $('main').after( data );
+});
 $(function() {
     let header = $('.header');
     let hederHeight = header.height(); 
@@ -24,6 +33,23 @@ function openNav() {
   function closeNav() {
   document.getElementById("nav-modal").style.width = "0";
   }
+/*scroll button*/
+$(document).ready(function(){
+ 
+  $(window).scroll(function(){
+  if ($(this).scrollTop() > 100) {
+  $('.scrollup').fadeIn();
+  } else {
+  $('.scrollup').fadeOut();
+  }
+  });
+   
+  $('.scrollup').click(function(){
+  $("html, body").animate({ scrollTop: 0 }, 600);
+  return false;
+  });
+   
+  });
 
   var btn1= document.getElementById('btn1');
   var btn2 = document.getElementById('btn2');
@@ -47,25 +73,5 @@ function openNav() {
   {
     head_link.addClass('link4');
   }
-/*scroll button*/
-$(document).ready(function(){
- 
-  $(window).scroll(function(){
-  if ($(this).scrollTop() > 100) {
-  $('.scrollup').fadeIn();
-  } else {
-  $('.scrollup').fadeOut();
-  }
-  });
-   
-  $('.scrollup').click(function(){
-  $("html, body").animate({ scrollTop: 0 }, 600);
-  return false;
-  });
-   
-  });
 
-const film1 = document.querySelector('#film1')
-console.log(film1)
 
-const film1Content = film1.textContent

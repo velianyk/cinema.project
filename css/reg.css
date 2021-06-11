@@ -1,0 +1,64 @@
+body
+{
+
+    text-align: center;
+}
+input
+{
+    margin-top: 5px;
+}
+.registration
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.reg_form
+{
+    width: fit-content;
+    margin: 0;
+}
+.btn_submit 
+{
+    background:transparent;
+    border:2px solid white;
+    color: white;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 15px;
+}
+.footer_reg
+{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width:96%;
+}
+.enterno
+{
+    display: flex;
+    flex-flow: column wrap;
+
+    margin-top: 20px;
+}
+
+.logout_btn 
+{
+    background:transparent;
+    border:1px solid white;
+    color: white;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 15px;
+}
+.close_logout
+{
+    background:transparent;
+    border:1px solid white;
+    color: white;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 15px;
+}
